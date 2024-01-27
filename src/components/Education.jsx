@@ -33,28 +33,28 @@ const Education = () => {
       </div>
       <div className='mb-9 mt-24 '>
         
-        <Field type="text" id="name" placeholder="Pls Enter Full name" name="name" className="w-full md:w-64 h-12 px-4 border rounded-md  placeholder-emerald-500 " />
+        <Field type="text" id="name" placeholder="Pls Enter Full name" name="name" required className="w-full md:w-64 h-12 px-4 border rounded-md  placeholder-blue-500 " />
         <ErrorMessage name="name" component="div" className="text-emerald-900" />
       </div>
       <div className=' mb-9 mt-15 '>
         
-        <Field type="text" id="Mobile number"  placeholder="Mobile Number" name="Mobile number" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-emerald-500"/>
+        <Field type="text" id="Mobile number"  placeholder="Mobile Number" name="Mobile number" required className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-blue-500"/>
         <ErrorMessage name="Mobile number" component="div" className="text-red-500" />
       </div>
 
       <div className=' mb-9 mt-4'>
         
-        <Field type="text" id="email" placeholder="Email Please" name="email" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-emerald-500" />
+        <Field type="text" id="email" placeholder="Email Please" name="email" required className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-blue-500" />
         <ErrorMessage name="email" component="div" className="text-red-500" />
       </div>
       <div className=' mb-9 mt-4' >
         
-        <Field type="text" id="country" placeholder="Please Enter Country Name" name="country" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-emerald-500" />
+        <Field type="text" id="country" placeholder="Please Enter Country Name" name="country" required className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-blue-500" />
         <ErrorMessage name="country" component="div" className="text-red-500" />
       </div>
       <div className='mb-9 mt-4' >
         
-        <Field type="text" id="city" placeholder ="Please Enter City Name" name="city" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-emerald-500" />
+        <Field type="text" id="city" placeholder ="Please Enter City Name" name="city" required className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-blue-500" />
         <ErrorMessage name="city" component="div" className="text-red-500" />
       </div>
       <div>
@@ -62,7 +62,7 @@ const Education = () => {
         id="dropdown"
         value={"gender"}
         
-        className="border p-2"
+        className="border p-2  text-blue-500"
       >
         <option value="">Gender</option>
         <option value="option1">Male</option>

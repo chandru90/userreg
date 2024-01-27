@@ -12,19 +12,19 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Web Development',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+    icon: <FaHtml5 className='h-16 w-16 text-blue-500' />,
    
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJs className='h-16 w-16 text-blue-500' />,
    
   },
   {
     id: nanoid(),
     title: '  React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    icon: <FaReact className='h-16 w-16 text-blue-500' />,
     
   },
 ];

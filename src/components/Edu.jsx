@@ -33,18 +33,18 @@ const Edu = () => {
       </div>
       <div className='mb-9 mt-9 '>
         
-        <Field type="text" id="name" placeholder="Highest Qualification" name="name" className="w-full md:w-64 h-12 px-4 border rounded-md sm:w-64 placeholder-emerald-500 " />
+        <Field type="text" id="name" placeholder="Highest Qualification" name="name" className="w-full md:w-64 h-12 px-4 border rounded-md sm:w-64 placeholder-blue-500 " />
         <ErrorMessage name="name" component="div" className="text-red-500" />
       </div>
       <div className=' mb-9 mt-4  '>
         
-        <Field type="text" id="Mobile number"  placeholder="Year on Passing" name="Mobile number" className="w-full md:w-64 h-12 px-4 border rounded-md sm:w-64 placeholder-emerald-500"/>
+        <Field type="text" id="Mobile number"  placeholder="Year on Passing" name="Mobile number" className="w-full md:w-64 h-12 px-4 border rounded-md sm:w-64 placeholder-blue-500"/>
         <ErrorMessage name="Mobile number" component="div" className="text-red-500" />
       </div>
 
       <div className=' mb-9 mt-4'>
         
-        <Field type="text" id="email" placeholder="Skills" name="Skills" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-emerald-500" />
+        <Field type="text" id="email" placeholder="Skills" name="Skills" className="w-full md:w-64 h-12 px-4 border rounded-md placeholder-blue-500" />
         <ErrorMessage name="email" component="div" className="text-red-500" />
       </div>
       
